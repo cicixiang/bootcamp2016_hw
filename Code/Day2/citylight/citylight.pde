@@ -2,6 +2,9 @@ void setup() {
   size(600, 600);
 }
 
+float x = 0;
+
+
 void draw() {
   background(255,204,204);
   noStroke();
@@ -109,6 +112,31 @@ void draw() {
 
   }
   
+// if(keyPressed){
+//if(key == 'b' || key == 'B'){
+//rect(0, 550, 50, 550);
+//rect(100, 550, 150, 550);
+
+
+//}
+//}
+
+
+
+  background(204);
+  x = x + .1;
+  if (x > width) {
+    x = 0;
+  }
+  line(x, 0, x, height); 
+}
+
+void mousePressed() {
+  loop();  // Holding down the mouse activates looping
+}
+
+void mouseReleased() {
+  noLoop();  // Releasing the mouse stops looping draw()
 
 
 
