@@ -1,0 +1,53 @@
+#transition{
+	background-color: lightblue;
+	width: 600px;
+	height: 600px;
+	transition: width 5s ease; 
+
+
+
+}
+
+#transition:hover{
+	width:1000px;
+	
+
+}
+
+
+#transitiontwo{
+	background-color: red;
+	width: 600px;
+	height: 600px; 
+	border-radius: 1000px;
+
+}
+
+#transitiontwo:hover{
+	transform: scale(2,1);
+	transition:5s ease;
+}
+
+
+@keyframes move{
+	0% {background-color: green;left: 100px;top:100px;}
+	50%{background-color: yellow;left: 500px;top: 500px;}
+	100%{background-color: white;left: 100px;top: 100px;}
+
+}
+
+#move{
+	width: 100px;
+	border-radius: 
+		background-color: black;
+		height: 100px;
+		position: relative;
+		animation-name: move;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+
+}
+
+
+body{margin:0 auto}；
+
