@@ -12,15 +12,8 @@ void setup(){
 
 void draw(){
   
-  for (int x = 0; x < 500;) {
-  float y = random(50);
-  noStroke();
-  fill(#E31919);
-  ellipse(400,400,400,390);
-  fill(#268E17);
-  triangle(500,150,600,170,400,220);
-  
-}
+apple((int)random(1000)+1,(int)random(1000)+1,(int)random(8)+1) ;
+ 
   
 
   
@@ -40,15 +33,16 @@ void draw(){
   }
 }
 
+void apple(int transformX, int transformY, int size) {
+  strokeWeight(4);
+  fill(#DE0D14);
+  ellipse((250/size)+transformX, (250/size)+transformY, (200/size), (200/size)) ;
+  fill(#0C5812);
+  triangle((300/size)+transformX, (150/size)+transformY, (280/size)+transformX, (110/size)+transformY, (250/size)+transformX, (210/size)+transformY) ;
+}
+
 void keyPressed(){
   
-  if(keyPressed){
-    fill(#E31919);
-    ellipse(400,400,400,390);
-    fill(#268E17);
-    triangle(500,150,600,170,400,220);
-  
-  }
   
   
   if (key == 'A' || key == 'a'){
