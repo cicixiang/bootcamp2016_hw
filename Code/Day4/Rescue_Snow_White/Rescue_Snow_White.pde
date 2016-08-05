@@ -1,13 +1,33 @@
 int state;
 
 void setup(){
-  size(100,100);
-  background(255);
+  size(800, 800);
+  background(255,204,204);
   state = 0;
   
 }
 
+
+
+
 void draw(){
+  
+  for (int x = 0; x < 500;) {
+  float y = random(50);
+  noStroke();
+  fill(#E31919);
+  ellipse(400,400,400,390);
+  fill(#268E17);
+  triangle(500,150,600,170,400,220);
+  
+}
+  
+
+  
+  
+  
+  
+  
   if(state == 0){
     println("Once upon a time, there was a beautiful princess named Snow White,she was kind and gentle and a friend to all animals...");
     println();
@@ -21,10 +41,20 @@ void draw(){
 }
 
 void keyPressed(){
+  
+  if(keyPressed){
+    fill(#E31919);
+    ellipse(400,400,400,390);
+    fill(#268E17);
+    triangle(500,150,600,170,400,220);
+  
+  }
+  
+  
   if (key == 'A' || key == 'a'){
     if (state == 1){
       println("");
-      println("Great! Snow White is sitting in sofa and watching Walking Dead, it's time to eat her apple. How wll she eat it?");
+      println("Great! Snow White is sitting in sofa and watching Walking Dead, it's time to eat her apple. How will she eat it?");
       println("A Snow White eats the apple with her favorite stawberry mojito made by herself");
       println("B Snow White eats the apple with peanut butter which she found in the wood");
       state = 2;
@@ -40,7 +70,7 @@ void keyPressed(){
       
     }else if (state == 3){
        println("");
-       println("The Queen pissed off the kick her ass! Snow White dies.");
+       println("The Queen pissed off and kick her ass! Snow White dies.");
        println("");
        println("GAME OVER!");
        println("press 'ESC' to play again");

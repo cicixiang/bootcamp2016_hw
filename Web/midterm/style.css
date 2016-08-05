@@ -32,6 +32,33 @@ li {
 
 }
 
+#openning{
+	margin-top: -650px;
+	padding-left: 100px;
+	z-index: 1;
+	font-family: baskerville; 
+	font-weight:lighter;
+	font-size: 150px;
+	line-height: 0%;
+	color: white;
+
+
+}
+
+#openningtwo{
+
+	padding-left: 100px;
+	padding-bottom: 145px;
+	z-index: 1;
+	font-family: baskerville; 
+	font-weight:lighter;
+	font-size: 60px;
+	line-height: 120%;
+	color: white;
+
+
+}
+
 #logo{
 	float: left;
 	height:100px;
@@ -48,7 +75,21 @@ li {
 }
 
 
+#portfolio{
+	height: 2000px;
+
+}
+
+
+h1:hover{
+	transform: scale(1.03,1.03);
+	transition:5s ease;
+}
+
+
+
 #about {
+
 	height: 430px ;
 	width: 100%;
     font-family: verdana;
