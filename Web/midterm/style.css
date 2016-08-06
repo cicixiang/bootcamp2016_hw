@@ -40,7 +40,7 @@ li {
 	font-weight:lighter;
 	font-size: 150px;
 	line-height: 0%;
-	color: white;
+	color: black;
 
 
 }
@@ -54,7 +54,7 @@ li {
 	font-weight:lighter;
 	font-size: 60px;
 	line-height: 120%;
-	color: white;
+	color: black;
 
 
 }
@@ -76,7 +76,9 @@ li {
 
 
 #portfolio{
-	height: 2000px;
+	height: 900px;
+	margin-top: 160px;
+	margin-left: 3px;
 
 }
 
@@ -85,6 +87,14 @@ h1:hover{
 	transform: scale(1.03,1.03);
 	transition:5s ease;
 }
+
+.img{
+
+	width: 408px;
+	padding-top: 100px;
+	padding-left: 45px;
+}
+
 
 
 
@@ -97,7 +107,7 @@ h1:hover{
     color: #D4D4D4;
     margin-top: 150px;
     margin-left: 0 px;
-    background-color: #8FAA9D;
+    background-color: #849eb2;
     padding-top: 50px;
 }
 .selfie{
