@@ -13,6 +13,9 @@
 /*body{
 	background-image: url("1.jpg");
 }*/
+a {
+text-decoration: none;
+}
 
 nav {
     top: 0;
@@ -23,12 +26,17 @@ nav {
 nav ul{
 	float: right;
 	padding-top: 30px;
+
 }
 
 li {
     display: inline;
+    font-weight:lighter;
+    letter-spacing: 2px;
     padding-right: 20px;
     color: white;
+    font-family: verdana; 
+
 
 }
 
@@ -75,10 +83,14 @@ li {
 }
 
 
+
+
+
 #portfolio{
 	height: 900px;
 	margin-top: 160px;
-	margin-left: 3px;
+	margin-left: 8px;
+	
 
 }
 
@@ -119,22 +131,47 @@ h1:hover{
 
 #aboutme{
 	font-size: 35px;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 5px;
 	color: #212121;
+
+
 }
 
 
 .intro{
 	padding-right: 400px;
-	color:white;
+	color:black;
 	line-height: 130%;
+	font-family: baskerville; 
+	font-size: 17px;
+}
+
+h3{
+	color:black;
+	font-family: baskerville; 
+	font-weight:lighter;
+}
+
+
+#contact{
+
+	margin-right: 60px;
+	margin-top: -300px;
+
+
+}
+
+.icon{
+	width: 40px;
+	padding-right: 15px;
+	float: right;
+
 }
 
 
 body{margin:0 auto}；
 
 
-h3{
-	color:white;
-}
+
+
