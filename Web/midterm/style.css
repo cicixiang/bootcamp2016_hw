@@ -1,18 +1,6 @@
-/*****@media (min-width: 600px){
-	body {
-		background:red;
-	}
-}
+/*menu*/
 
-@media(min-width: 1000px){
-	body{
-		background: blue;
-	}
-}
-******/
-/*body{
-	background-image: url("1.jpg");
-}*/
+
 a {
 text-decoration: none;
 }
@@ -40,6 +28,8 @@ li {
 
 }
 
+/*Type on Image*/
+
 #openning{
 	margin-top: -650px;
 	padding-left: 100px;
@@ -65,7 +55,16 @@ li {
 	color: black;
 
 
+
 }
+
+h1:hover{
+	transform: scale(1.03,1.03);
+	transition:5s ease;
+}
+
+
+/*Logo*/
 
 #logo{
 	float: left;
@@ -74,6 +73,8 @@ li {
 	padding-top: 30px;
 
 }
+
+/*backgroundimg*/
 
 #backgroundimg {
 	position: relative;
@@ -84,7 +85,7 @@ li {
 
 
 
-
+/*portfolio img section*/
 
 #portfolio{
 	height: 900px;
@@ -95,20 +96,19 @@ li {
 }
 
 
-h1:hover{
-	transform: scale(1.03,1.03);
-	transition:5s ease;
-}
+/*portfolio img*/
 
 .img{
 
 	width: 408px;
 	padding-top: 100px;
 	padding-left: 45px;
+	position: relative;
 }
 
 
 
+/*aboutme section*/
 
 #about {
 
@@ -122,6 +122,9 @@ h1:hover{
     background-color: #849eb2;
     padding-top: 50px;
 }
+
+
+/*img*/
 .selfie{
 	float: left;
     padding-left: 100px;
@@ -153,6 +156,9 @@ h3{
 	font-weight:lighter;
 }
 
+
+
+/*icons*/
 
 #contact{
 

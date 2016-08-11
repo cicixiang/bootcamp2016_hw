@@ -1,0 +1,38 @@
+
+
+h1{
+	font-size: 10vh;
+	font-family: Gill sans;
+	text-align:center;
+	padding-top: 10vh;
+	color: grey;
+	line-height: 150%;
+
+}
+
+
+#sheep{
+	height: 450px;
+	margin-left: 60vh;
+
+}
+
+
+#penguin{
+	height: 300px;
+	margin-left: 30vh;
+	float: left;
+
+}
+
+#giraffe{
+	height: 450px;
+	margin-left: 50vh;
+	float: left;
+}
+
+#chick{
+	height: 200px;
+	margin-right: 40vh;
+	float: right;
+}
