@@ -15,7 +15,7 @@ PImage image;
 String currentFilename;
 
 // EDIT THIS LINE WITH YOUR NAME!
-String studentName = "YOUR NAME HERE!!";
+String studentName = "Chengcheng Xiang";
 
 void setup() {
   files = new ArrayList<File>();
@@ -46,26 +46,37 @@ void draw() {
   prepare();
 
   // BEGIN ADDING YOUR CODE HERE -----
-
+  
     fill(#FCFF50);
+    ellipse(random(width),random(height),50,50);
+    ellipse(random(width),random(height),50,50);
+    ellipse(random(width),random(height),30,30);
     ellipse(random(width),random(height),20,20);
-
-for(int y = 0; y < height; y += 10 ){
-  for(int x = 0; x < width*2; x += 100){
+    ellipse(random(width),random(height),30,30);
+    ellipse(random(width),random(height),20,20);
+    fill(#EA1515);
+    ellipse(random(width),random(height),30,30);
+    ellipse(random(width),random(height),20,20);
+    ellipse(random(width),random(height),30,30);
+    ellipse(random(width),random(height),20,20);
+for(int y = 0; y < height; y += 200 ){
+  for(int x = 0; x < width*2; x += 500){
     fill(#2B3386);
-    ellipse(x,y ,7,7);
+    //ellipse(x,y ,15,15);
     line(x,y,width/2,height/2);
   }
 }
 
-for(int y = 0; y < height; y += 10 ){
-  for(int x = 0; x < width*2; x += 100){
-    fill(#2B3386);
-    ellipse(y,x ,7,7);
+for(int y = 0; y < height; y += 50 ){
+  for(int x = 0; x < width*2; x += 500){
+    //fill(#2B3386);
+    //ellipse(y,x ,15,15);
     fill(#2B3322);
     line(y,x,width/2,height/2);
 
   }
+  
+
 }
 
 
