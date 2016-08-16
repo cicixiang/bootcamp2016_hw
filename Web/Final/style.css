@@ -1,0 +1,244 @@
+
+/***no margin****/
+body{
+  margin:0 auto;
+  background-color: black;
+  }
+
+
+/**** quote ***/
+
+#quote{
+  text-align: right;
+  font-family: 'Baskerville', serif;
+  font-style: italic;
+  font-size: 2vw;
+  color:white;
+  letter-spacing: 0.1vh;
+  line-height: 3vw;
+  display: inline;
+  z-index: 100;
+  float: right;
+}
+
+#source{
+  font-family: 'baskerville', serif;
+  font-weight: lighter;
+  font-size: 3vw;
+  color:white;
+  letter-spacing: 0.1vh;
+  display: inline;
+  float: right;
+  text-align: right;
+  z-index: 100;
+
+}
+
+/*topbar*/
+
+.fullscreen-bg{
+  height: 100vh;
+}
+
+
+
+
+
+/*******video**********/
+#bgVideo{ width: 90vw;
+
+}
+
+
+
+video#bgVideo {
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1; 
+}
+ 
+
+
+
+
+
+/*datasection*/
+
+#datasection{
+  height: 104vh;
+  background-color: black;
+  display: block;
+  margin-top: -3px;
+}
+
+#data{
+  width: 95vw;
+  padding-top: 15vw;
+  padding-left: 2vw;
+}
+
+
+
+
+/*pic section*/
+
+#photos{
+  margin-top: 0vw;
+  display: block;
+}
+
+#photos:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#pic1{
+
+  clear: right;
+  width: 32.9vw;
+  float: left;
+  margin: 0vw;
+  display: block;
+
+}
+
+#pic2{
+  width: 32.9vw;
+  margin: 0vw;
+    float: left;
+  display: block;
+}
+
+#pic3{
+  width: 32.9vw;
+  margin: 0vw;
+  float: left;
+  display: block;
+}
+
+#pic4{
+  width: 32.9vw;
+  margin: 0vw;
+  float: left;
+  display: block;
+}
+
+#pic5{
+  width: 32.9vw;
+  margin: 0vw;
+  float: left;
+  display: block;
+}
+
+#pic6{
+  width: 32.9vw;
+  margin: 0;
+  float: left;
+  display: block;
+}
+
+#pic7{
+  width: 32.9vw;
+  margin: 0;
+  float: left;
+  display: block;
+}
+
+#pic8{
+  width: 32.9vw;
+  margin: 0;
+  float: left;
+  display: block;
+}
+
+#pic9{
+  width: 32.9vw;
+  margin: 0;
+  float: left;
+  display: block;
+}
+
+
+
+/*bottombar*/
+h1{
+  color: #DC3522;
+  font-family: 'Montserrat', sans-serif;
+  size: 5vw;
+  margin: 0px;
+  font-size: 3vw;
+}
+
+h4{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  margin: 0px;
+
+}
+
+
+
+#bottombar{
+  height: 18vh;
+
+}
+
+#hotlines{
+  letter-spacing: 5px;
+  display: block;
+  width: 25vw;
+  padding-left: 3vw;
+  padding-top: 2.5vw;
+  float: left;
+
+}
+
+#name {
+  display: block;
+  width: 20vw;
+  padding-top: 3vw;
+  float: left;
+  line-height: 25px;
+}
+
+#secondname{
+  display: block;
+  width: 20vw;
+  padding-top: 3vw;
+  float: left;
+  line-height: 25px;
+}
+
+
+
+#icon{
+    margin-top: -3vw;
+}
+
+#facebookicon{
+
+  padding: 2vw;
+  width: 3vw;
+  clear: left;
+  float: right;
+
+}
+
+#emailicon{
+  width: 3vw;
+  float: right;
+  padding: 2vw;
+}
+
+
+
+
+
+
+
